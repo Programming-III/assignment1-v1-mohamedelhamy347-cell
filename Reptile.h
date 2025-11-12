@@ -3,8 +3,13 @@
 
 #include "Animal.h"
 
-//define reptile class here
-
+Class Reptile::Public Animal{
+	private bool isVenomous;
+Public:
+	Reptile()::Public Animal();
+	Reptile(bool isVenomous)::Animal(string name, int age, bool isHungry);
+   ~Reptile();
+}
 
 
 
