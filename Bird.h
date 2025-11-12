@@ -3,7 +3,15 @@
 
 #include "Animal.h"
 
-//define class bird here 
+class Bird::Animal{
+Private float wingSpan;
+public:
+Bird()::Public Animal();
+Bird(float wingSpan)::Animal(string name, int age, bool isHungry);
+   ~Bird(); 
+    
+    
+}
 
 
 
