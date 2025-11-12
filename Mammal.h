@@ -3,7 +3,15 @@
 
 #include "Animal.h"
 
-//define mammal class here
+Class Mammal::public Animal{
+    Private String furColor;
+    public:
+    Mammal()::public Animal();
+    Mammal(String furColor)::Animal(string name, int age, bool isHungry);
+    ~Mammal();
+    
+    
+}
 
 
 
