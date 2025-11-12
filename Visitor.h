@@ -4,8 +4,17 @@
 #include <string>
 using namespace std;
 
-//define visitor class here
-
+Class Visitor{
+    private:
+    string visitorName;
+    int ticketsBought;
+    public:
+    Visitor();
+    Visitor(string visitorName,int ticketsBought);
+    ~Visitor();
+    void displayInfo();
+    void getvisitorName();
+    void getticketsBought();
 
 
 
